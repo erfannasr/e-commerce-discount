@@ -26,7 +26,6 @@ const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 export const analytics = isSupported().then((yes) =>
   yes ? getAnalytics(app) : null
 );
-console.log(app)
 export const db = getFirestore(app);
 export const auth = getAuth(app);
 export const storage = getStorage(app);

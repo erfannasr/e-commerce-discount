@@ -35,7 +35,7 @@ function AdminLayout({ children }) {
       </div>
       <div
         ref={sideBarRef}
-        className={`fixed md:hidden ease-in-out transition-all duration-400 ${
+        className={`fixed md:hidden ease-in-out transition-all duration-400 z-50 ${
           isOpen ? "translate-x-0" : "-translate-x-[260px]"
         }`}
       >

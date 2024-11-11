@@ -72,7 +72,7 @@ function Sidebar() {
     
   ];
   return (
-    <section className="bg-white flex flex-col gap-10  border-r  px-5 py-3 w-[260px] h-screen overflow-hidden">
+    <section className="bg-white flex flex-col gap-10  border-r  px-5 py-3 w-[260px] z-[1000] h-screen overflow-hidden">
       <div className="flex justify-center py-4">
         <Image src={logo} width={120} height={150} alt="" />
       </div>

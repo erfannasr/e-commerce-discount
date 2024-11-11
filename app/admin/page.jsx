@@ -2,9 +2,12 @@
 
 function page() {
   return (
-    <div >ADMIN PAGE</div>
+    <main className="p-5" >
+      <h1>Dashboard</h1>
+      
+    </main>
   )
 } 
-// 9 42 28
+
 
 export default page
